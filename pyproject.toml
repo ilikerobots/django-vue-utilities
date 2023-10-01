@@ -1,0 +1,27 @@
+[build-system]
+requires = ['setuptools>=40.8.0']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "django-vue-utils"
+version = "0.1.4"
+authors = [
+  { name="Mike Hoolehan", email="mike@starheightmedia.com" },
+]
+description = "Utilities and helpers for integrating Django + Vue"
+readme = "README.rst"
+requires-python = ">=3.7"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: JavaScript",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ilikerobots/django-vue-utils"
+"Bug Tracker" = "https://github.com/ilikerobots/django-vue-utils/issues"
