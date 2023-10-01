@@ -10,7 +10,12 @@ front-end, as described in `Cookiecutter Vue + Django`_
 Quick start
 -----------
 
-1. Add "django_vue_utilities" to your INSTALLED_APPS setting:
+1. Add dependency django-vue-utils
+
+.. code-block::bash
+    pip install django-vue-utils==0.1.5
+
+2. Add "django_vue_utilities" to your INSTALLED_APPS setting:
 
 .. code-block::python
 
