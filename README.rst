@@ -12,12 +12,13 @@ Quick start
 
 1. Add dependency django-vue-utils
 
-.. code-block::bash
+.. code-block:: bash
+
     pip install django-vue-utils==0.1.5
 
 2. Add "django_vue_utilities" to your INSTALLED_APPS setting:
 
-.. code-block::python
+.. code-block:: python
 
     INSTALLED_APPS = [
         ...,
