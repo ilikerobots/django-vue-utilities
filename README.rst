@@ -2,7 +2,11 @@
 Django Vue Utilities
 ====================
 
-Provides helpers and utilities for integrating with a Vue 
+.. image:: https://badge.fury.io/py/django-vue-utils.svg
+    :target: https://badge.fury.io/py/django-vue-utils
+
+
+Provides helpers and utilities for integrating with a Vue
 front-end, as described in `Cookiecutter Vue + Django`_
 
 .. _Cookiecutter Vue + Django: https://github.com/ilikerobots/cookiecutter-vue-django
@@ -10,13 +14,13 @@ front-end, as described in `Cookiecutter Vue + Django`_
 Quick start
 -----------
 
-1. Add dependency django-vue-utils
+Add dependency django-vue-utils
 
 .. code-block:: bash
 
-    pip install django-vue-utils==0.1.5
+    pip install django-vue-utils==0.1.6
 
-2. Add "django_vue_utilities" to your INSTALLED_APPS setting:
+Add "django_vue_utilities" to your INSTALLED_APPS setting:
 
 .. code-block:: python
 
