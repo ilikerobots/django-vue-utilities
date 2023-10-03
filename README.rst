@@ -6,8 +6,11 @@ Django Vue Utilities
     :target: https://badge.fury.io/py/django-vue-utils
 
 
-Provides helpers and utilities for integrating with a Vue
-front-end, as described in `Cookiecutter Vue + Django`_
+Provides helpers and utilities for integrating with a Vue front-end, as described
+in the article `Django + Vue + Vite: REST Not Required`_ and in `Cookiecutter Vue + Django`_
+
+
+.. _Django + Vue + Vite\: Rest Not Required: https://medium.com/@ilikerobots/django-vue-vite-rest-not-required-ca63cfa558fd
 
 .. _Cookiecutter Vue + Django: https://github.com/ilikerobots/cookiecutter-vue-django
 
@@ -18,7 +21,7 @@ Add dependency django-vue-utils
 
 .. code-block:: bash
 
-    pip install django-vue-utils==0.1.6
+    pip install django-vue-utils==0.1.7
 
 Add "django_vue_utilities" to your INSTALLED_APPS setting:
 
